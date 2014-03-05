@@ -1,0 +1,4 @@
+cron:
+- description: result check every 42 mins
+  url: /main/mail
+  schedule: every 42000 minutes
