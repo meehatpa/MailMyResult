@@ -63,9 +63,9 @@ class MainHandler(webapp2.RequestHandler):
 
                     
 
-                    message = mail.EmailMessage(sender="megamailer64@gmail.com", subject="VTU Results")
+                    message = mail.EmailMessage(sender="xyx@gmail.com", subject="VTU Results")
 
-                    message.to = "gune30@gmail.com"
+                    message.to = "xxx@gmail.com"
                     message.body = """ """
                     message.html = "" + body + ""
                     
